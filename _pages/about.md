@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: Marie Skłodowska-Curie PhD Fellow @[Université Gustave Eiffel](https://clear-doc.univ-gustave-eiffel.fr/phd-students/phd-topics-2nd-cohort/abdelrahman-sayed-ibrahim)
+subtitle: Marie Skłodowska-Curie PhD Fellow <a href='https://clear-doc.univ-gustave-eiffel.fr/phd-students/phd-topics-2nd-cohort/abdelrahman-sayed-ibrahim'>@Université Gustave Eiffel</a>
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
