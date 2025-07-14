@@ -4,17 +4,24 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/assets/pdf/Abdelrahman_Sayed_Academic_LaTeX_CV.pdf";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -415,7 +422,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%61%62%64%65%6C%72%61%68%6D%61%6E.%69%62%72%61%68%69%6D@%75%6E%69%76-%65%69%66%66%65%6C.%66%72", "_blank");
         },
       },{
         id: 'social-linkedin',
@@ -430,6 +437,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=iZw1TVEAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://openreview.net/profile?id=~Abdelrahman_Sayed_Sayed1", "_blank");
         },
       },{
       id: 'light-theme',
