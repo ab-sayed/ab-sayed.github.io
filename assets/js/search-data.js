@@ -369,6 +369,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
+            },},{id: "news-master-s-thesis-opportunity-on-quot-connecting-discrete-and-continuous-neural-network-models-quot",
+          title: 'Master’s thesis opportunity on &amp;quot;Connecting Discrete and Continuous Neural Network Models&amp;quot;',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_UGE_Internship_2024.html";
             },},{id: "news-our-paper-bridging-neural-ode-and-resnet-a-formal-error-bound-for-safety-verification-was-accepted-in-saiv-2025-co-located-with-cav-2025",
           title: 'Our paper “Bridging Neural ODE and ResNet: A Formal Error Bound for Safety...',
           description: "",
