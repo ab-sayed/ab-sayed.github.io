@@ -25,7 +25,7 @@ announcements:
 latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 3 # leave blank to include all the blog posts in the `_posts` folder
 ---
 
 My research focuses on developing tools/methods for formal verification of neural ODE using reachability analysis. My broader interest lie in AI controlled systems, control theorey, and formal methods.
