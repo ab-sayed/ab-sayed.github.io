@@ -7,5 +7,5 @@ related_posts: false
 
 <!-- A simple inline announcement. -->
 
-Our paper "Mixed Monotonicity Reachability Analysis of Neural ODE: A Trade-Off Between Tightness and Efficiency" was accepted in [NeurReps 2025](https://www.neurreps.org/about) co-located with [NeurIPS 2025](https://neurips.cc/)
+Our paper "[Mixed Monotonicity Reachability Analysis of Neural ODE: A Trade-Off Between Tightness and Efficiency](https://arxiv.org/abs/2510.17859)" was accepted in [NeurReps 2025](https://www.neurreps.org/about) co-located with [NeurIPS 2025](https://neurips.cc/)
 
