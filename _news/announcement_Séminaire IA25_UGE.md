@@ -7,4 +7,4 @@ related_posts: false
 
 <!-- A simple inline announcement. -->
 
-I will present our work on Bridging Neural ODE and ResNet at the AI Seminar of Université Gustave Eiffel.
+I will present our work on Bridging Neural ODE and ResNet at the AI Seminar of Université Gustave Eiffel

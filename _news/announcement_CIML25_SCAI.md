@@ -7,4 +7,4 @@ related_posts: false
 
 <!-- A simple inline announcement. -->
 
-I will present our work on Bridging Neural ODE and ResNet at the [Workshop on cautiousness and imprecision in machine learning (CIML 2025)](https://sites.google.com/view/ciml-2025/) at Sorbonne Université.
+I will present our work on Bridging Neural ODE and ResNet at the [Workshop on cautiousness and imprecision in machine learning (CIML 2025)](https://sites.google.com/view/ciml-2025/) at Sorbonne Université
