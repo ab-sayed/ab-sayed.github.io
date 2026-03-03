@@ -3,14 +3,32 @@
 
 @string{aps = {American Physical Society,}}
 
-@inproceedings{sayed2025formal,
+@inproceedings{shaaban2026hyperkklenablingnonautonomousstate,
+  bibtex_show={true},
+  title={HyperKKL: Enabling Non-Autonomous State Estimation through Dynamic Weight Conditioning}, 
+  author={Yahia Salaheldin Shaaban and Salem Lahlou and Abdelrahman Sayed Sayed},
+  abstract={This paper proposes HyperKKL, a novel learning approach for designing Kazantzis-Kravaris/Luenberger (KKL) observers for non-autonomous nonlinear systems. While KKL observers offer a rigorous theoretical framework by immersing nonlinear dynamics into a stable linear latent space, its practical realization relies on solving Partial Differential Equations (PDE) that are analytically intractable. Current existing learning-based approximations of the KKL observer are mostly designed for autonomous systems, failing to generalize to driven dynamics without expensive retraining or online gradient updates. HyperKKL addresses this by employing a hypernetwork architecture that encodes the exogenous input signal to instantaneously generate the parameters of the KKL observer, effectively learning a family of immersion maps parameterized by the external drive. We rigorously evaluate this approach against a curriculum learning strategy that attempts to generalize from autonomous regimes via training heuristics alone. The novel approach is illustrated on four numerical simulations in benchmark examples including the Duffing, Van der Pol, Lorenz, and Rössler systems.},
+  booktitle={ICLR 2026 AI & PDE Workshop},
+  year={2026},
+  eprint={2602.22630},
+  archivePrefix={arXiv},
+  primaryClass={eess.SY},
+  url={https://arxiv.org/abs/2602.22630}, 
+  pdf={https://arxiv.org/abs/2602.22630}, 
+  abbr={AI},
+  preview={HyperKKL_Architecture_pipeline.png},
+  selected={false}
+}
+
+@inproceedings{sayed2026formal,
   bibtex_show={true},
   title={Formal Verification of Neural ODE for Safety Evaluation in Autonomous Vehicles}, 
   author={Abdelrahman Sayed Sayed},
   abstract={Higher autonomy is an increasingly common goal in the design of transportation systems for the cities of the future. Recently, part of this autonomy in both rail and maritime transport has come from the field of artificial intelligence and machine learning, particularly for perception tasks (detection and recognition of rail signals, other vessels, or other elements in the vehicle environment) using neural networks. Although AI-based approaches have gained significant popularity in many application fields due to their good performance, their unpredictability and lack of formal guarantees regarding their desired behavior present a major issue for the deployment of such safety-critical systems in urban areas. The goal of my PhD thesis is to design new formal methods to analyze and ensure the safety of such AI-based perception modules in autonomous vehicles. More specifically, my PhD topic aims to formally evaluate the safety of a recently introduced class of continuous AI models which are neural ODE.},
   booktitle={AAAI-26 Doctoral Consortium},
   year={2026}, 
-  pdf={2026_Abdelrahman_Sayed_AAAI26_DC_paper_V5.pdf},
+  url={https://hal.science/hal-05375718/}, 
+  pdf={https://hal.science/hal-05375718/},
   slides={2026_Abdelrahman_Sayed_AAAI26_DC_slides.pdf},
   poster={2026_Abdelrahman_Sayed_AAAI26_DC_poster.pdf},
   abbr={AI},
@@ -23,7 +41,7 @@
   title={Mixed Monotonicity Reachability Analysis of Neural ODE: A Trade-Off Between Tightness and Efficiency}, 
   author={Abdelrahman Sayed Sayed and Pierre-Jean Meyer and Mohamed Ghazel},
   abstract={Neural ordinary differential equations (neural ODE) are powerful continuous-time machine learning models for depicting the behavior of complex dynamical systems, but their verification remains challenging due to limited reachability analysis tools adapted to them. We propose a novel interval-based reachability method that leverages continuous-time mixed monotonicity techniques for dynamical systems to compute an over-approximation for the neural ODE reachable sets. By exploiting the geometric structure of full initial sets and their boundaries via the homeomorphism property, our approach ensures efficient bound propagation. By embedding neural ODE dynamics into a mixed monotone system, our interval-based reachability approach, implemented in TIRA with single-step, incremental, and boundary-based approaches, provides sound and computationally efficient over-approximations compared with CORA's zonotopes and NNV2.0 star set representations, while trading tightness for efficiency. This trade-off makes our method particularly suited for high-dimensional, real-time, and safety-critical applications. Applying mixed monotonicity to neural ODE reachability analysis paves the way for lightweight formal analysis by leveraging the symmetric structure of monotone embeddings and the geometric simplicity of interval boxes, opening new avenues for scalable verification aligned with the symmetry and geometry of neural representations. This novel approach is illustrated on two numerical examples of a spiral system and a fixed-point attractor system modeled as a neural ODE.},
-  booktitle={NeurIPS Workshop on Symmetry and Geometry in Neural Representations},
+  booktitle={NeurIPS 2025 Workshop on Symmetry and Geometry in Neural Representations},
   year={2025},
   eprint={2510.17859},
   archivePrefix={arXiv},
