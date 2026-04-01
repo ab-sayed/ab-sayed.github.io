@@ -5,6 +5,23 @@
 
 @inproceedings{shaaban2026hyperkklenablingnonautonomousstate,
   bibtex_show={true},
+  title={HyperKKL: Learning KKL Observers for Non-Autonomous Nonlinear Systems via Hypernetwork-Based Input Conditioning}, 
+  author={Yahia Salaheldin Shaaban and Abdelrahman Sayed Sayed and M. Umar B. Niazi and Karl Henrik Johansson},
+  abstract={Kazantzis–Kravaris/Luenberger (KKL) observers are a class of state observers for nonlinear systems that rely on an injective map to transform the nonlinear dynamics into a stable quasi-linear latent space, from where the state estimate is obtained in the original coordinates via a left inverse of the transformation map. Current learning-based methods for these maps are designed exclusively for autonomous systems and do not generalize well to controlled or non-autonomous systems. In this paper, we propose two learning-based designs of neural KKL observers for non-autonomous systems whose dynamics are influenced by exogenous inputs. To this end, a hypernetwork-based framework (HyperKKL) is proposed with two input-conditioning strategies. First, an augmented observer approach ($HyperKKL_{obs}$) adds input-dependent corrections to the latent observer dynamics while retaining static transformation maps. Second, a dynamic observer approach ($HyperKKL_{dyn}$) employs a hypernetwork to generate encoder and decoder weights that are input-dependent, yielding time-varying transformation maps. We derive a theoretical worst-case bound on the state estimation error. Numerical evaluations on four nonlinear benchmark systems show that input conditioning yields consistent improvements in estimation accuracy over static autonomous maps, with an average symmetric mean absolute percentage error (SMAPE) reduction of 29% across all non-zero input regimes.},
+  booktitle={Underreview in IEEE Conference on Decision and Control (CDC)},
+  year={2026},
+  eprint={2603.29744},
+  archivePrefix={arXiv},
+  primaryClass={eess.SY},
+  url={https://arxiv.org/abs/2603.29744}, 
+  pdf={https://arxiv.org/abs/2603.29744}, 
+  abbr={AI ∩ Control},
+  preview={CDC26.png},
+  selected={false}
+}
+
+@inproceedings{shaaban2026hyperkklenablingnonautonomousstate,
+  bibtex_show={true},
   title={HyperKKL: Enabling Non-Autonomous State Estimation through Dynamic Weight Conditioning}, 
   author={Yahia Salaheldin Shaaban and Salem Lahlou and Abdelrahman Sayed Sayed},
   abstract={This paper proposes HyperKKL, a novel learning approach for designing Kazantzis-Kravaris/Luenberger (KKL) observers for non-autonomous nonlinear systems. While KKL observers offer a rigorous theoretical framework by immersing nonlinear dynamics into a stable linear latent space, its practical realization relies on solving Partial Differential Equations (PDE) that are analytically intractable. Current existing learning-based approximations of the KKL observer are mostly designed for autonomous systems, failing to generalize to driven dynamics without expensive retraining or online gradient updates. HyperKKL addresses this by employing a hypernetwork architecture that encodes the exogenous input signal to instantaneously generate the parameters of the KKL observer, effectively learning a family of immersion maps parameterized by the external drive. We rigorously evaluate this approach against a curriculum learning strategy that attempts to generalize from autonomous regimes via training heuristics alone. The novel approach is illustrated on four numerical simulations in benchmark examples including the Duffing, Van der Pol, Lorenz, and Rössler systems.},
@@ -15,8 +32,8 @@
   primaryClass={eess.SY},
   url={https://arxiv.org/abs/2602.22630}, 
   pdf={https://arxiv.org/abs/2602.22630}, 
-  abbr={AI},
-  preview={HyperKKL_Architecture_pipeline.png},
+  abbr={AI ∩ Control},
+  preview={ICLR26.png},
   selected={false}
 }
 
@@ -138,7 +155,7 @@
   organization={Springer},
   url={https://link.springer.com/chapter/10.1007/978-3-030-44289-7_3},
   pdf={https://link.springer.com/chapter/10.1007/978-3-030-44289-7_3},
-  abbr={AI & Robotics},
+  abbr={AI ∩ Robotics},
   preview={AICV2020_Hexa.gif},
   selected={false}
 }
@@ -154,7 +171,7 @@
   organization={Springer},
   url={https://link.springer.com/chapter/10.1007/978-3-030-44289-7_29},
   pdf={https://link.springer.com/chapter/10.1007/978-3-030-44289-7_29},
-  abbr={AI & Robotics},
+  abbr={AI ∩ Robotics},
   preview={AICV2020_3RRR.gif},
   selected={false}
 }
@@ -171,7 +188,7 @@
   organization={IEEE},
   url={https://ieeexplore.ieee.org/abstract/document/8909333},
   pdf={https://ieeexplore.ieee.org/abstract/document/8909333},
-  abbr={AI & Robotics},
+  abbr={AI ∩ Robotics},
   preview={Niles2019.gif},
   selected={false}
 }
@@ -187,7 +204,7 @@
   organization={Springer},
   url={https://link.springer.com/chapter/10.1007/978-3-030-31129-2_22},
   pdf={https://link.springer.com/chapter/10.1007/978-3-030-31129-2_22},
-  abbr={Control & Robotics},
+  abbr={Control ∩ Robotics},
   preview={AISI2019.gif},
   selected={false}
 }
