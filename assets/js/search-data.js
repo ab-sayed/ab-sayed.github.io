@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-awards",
+          title: "Awards",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/awards/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
@@ -364,7 +371,22 @@ ninja.data = [{
             window.location.href = "/sample-posts/2015/03/15/formatting-and-links.html";
           
         },
-      },{id: "books-the-godfather",
+      },{id: "awards-best-undergraduate-research-thesis-for-the-academic-year-2019-2020",
+          title: 'Best Undergraduate Research Thesis for the academic year 2019 - 2020',
+          description: "",
+          section: "Awards",handler: () => {
+              window.location.href = "/awards/2020_NU_Bachelor.html";
+            },},{id: "awards-best-student-presentation-award-at-utc-2023",
+          title: 'Best Student Presentation Award at UTC 2023',
+          description: "",
+          section: "Awards",handler: () => {
+              window.location.href = "/awards/2023_UTC.html";
+            },},{id: "awards-second-place-at-ntnu-faculty-of-engineering-innovation-competition-for-master-thesis-2023",
+          title: 'Second Place at NTNU Faculty of Engineering Innovation Competition for Master thesis 2023...',
+          description: "",
+          section: "Awards",handler: () => {
+              window.location.href = "/awards/2023_NTNU_IV_Competition.html";
+            },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
