@@ -146,6 +146,9 @@ collections:
     defaults:
       layout: post
     output: true
+  # Added the awards section
+  awards:
+    output: true   # Set output: `true` if you want each award to have its own dedicated clickable page, or set output: `false` if you are just using `inline: true` in your award markdown files to display the text directly in the list.
   projects:
     output: true
 
