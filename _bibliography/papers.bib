@@ -3,12 +3,29 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{sayed2026tnodevtoolboxneuralode,
+  bibtex_show={true},
+  title={TNODEV: Toolbox for Neural ODE Verification}, 
+  author={Abdelrahman Sayed Sayed and Pierre-Jean Meyer and Mohamed Ghazel},
+  abstract={Neural ordinary differential equations (neural ODE) have started to appear in safety critical settings such as continuous-time controllers for cyber-physical systems and classifiers integrated into automated decision pipelines, raising the question of whether their behavior can be formally verified. Existing tools dedicated to neural ODE provide only a single reachability call without iterative input set refinement, limiting the precision of their verdicts to whatever one reachability call can deliver. We present TNODEV, the first sound formal verifier for neural ODE that integrates a falsification checker, a fast interval-based reachability backend based on continuous-time mixed monotonicity, a verification and refinement loop with three input-set splitting heuristics, and a parallel scheduler in a single end-to-end pipeline. TNODEV supports safe-set inclusion verification on pure neural ODE, neural ODE in closed loop with a neural network controller and general neural ODE (GNODE), with the safe set specified either as an interval or as the half-space intersection induced by a target classification label. We evaluate TNODEV on a range of benchmarks across safe-set inclusion and classification-robustness properties, including a direct reachability comparison against NNV 2.0 and CORA and a verification comparison against NNV 2.0 on MNIST general neural ODE classifiers.},
+  booktitle={Under review in Transactions on Machine Learning Research (TMLR)},
+  year={2026},
+  eprint={2606.16567},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2606.16567}, 
+  pdf={https://arxiv.org/abs/2606.16567}, 
+  abbr={AI ∩ Control},
+  preview={TMLR_TNODEV26.png},
+  selected={true}
+}
+
 @inproceedings{shaaban2026hyperkklenablingnonautonomousstate,
   bibtex_show={true},
   title={HyperKKL: Learning KKL Observers for Non-Autonomous Nonlinear Systems via Hypernetwork-Based Input Conditioning}, 
   author={Yahia Salaheldin Shaaban and Abdelrahman Sayed Sayed and M. Umar B. Niazi and Karl Henrik Johansson},
   abstract={Kazantzis–Kravaris/Luenberger (KKL) observers are a class of state observers for nonlinear systems that rely on an injective map to transform the nonlinear dynamics into a stable quasi-linear latent space, from where the state estimate is obtained in the original coordinates via a left inverse of the transformation map. Current learning-based methods for these maps are designed exclusively for autonomous systems and do not generalize well to controlled or non-autonomous systems. In this paper, we propose two learning-based designs of neural KKL observers for non-autonomous systems whose dynamics are influenced by exogenous inputs. To this end, a hypernetwork-based framework (HyperKKL) is proposed with two input-conditioning strategies. First, an augmented observer approach ($HyperKKL_{obs}$) adds input-dependent corrections to the latent observer dynamics while retaining static transformation maps. Second, a dynamic observer approach ($HyperKKL_{dyn}$) employs a hypernetwork to generate encoder and decoder weights that are input-dependent, yielding time-varying transformation maps. We derive a theoretical worst-case bound on the state estimation error. Numerical evaluations on four nonlinear benchmark systems show that input conditioning yields consistent improvements in estimation accuracy over static autonomous maps, with an average symmetric mean absolute percentage error (SMAPE) reduction of 29% across all non-zero input regimes.},
-  booktitle={Underreview in IEEE Conference on Decision and Control (CDC)},
+  booktitle={Under review in IEEE Conference on Decision and Control (CDC)},
   year={2026},
   eprint={2603.29744},
   archivePrefix={arXiv},
