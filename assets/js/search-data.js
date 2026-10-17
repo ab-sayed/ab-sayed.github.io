@@ -420,7 +420,12 @@ ninja.data = [{
           section: "News",},{id: "news-the-first-applied-auv-paper-from-my-phd-robustness-verification-of-an-auv-based-plankton-classifier-was-accepted-in-ieee-oes-auv-symposium-2026",
           title: 'The first applied AUV paper from my PhD “Robustness Verification of an AUV-based...',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-announcement-tnodev-tmlr26",
+          title: 'Announcement_tnodev_tmlr26',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_TNODEV_TMLR26.html";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
